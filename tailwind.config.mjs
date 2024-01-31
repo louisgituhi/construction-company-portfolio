@@ -5,7 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				"Inconsolate": ['Inconsolata', 'monospace'],
-				"satoshi": ['Satoshi', 'sans-serif']
+				"satoshi": ['Satoshi', 'sans-serif'],
 			}
 		},
 	},
