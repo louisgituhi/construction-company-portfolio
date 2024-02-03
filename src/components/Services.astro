@@ -1,0 +1,63 @@
+---
+import { Image } from "astro:assets"
+
+import logo from "../images/logo.jpg"
+import deliver from "../images/deliver3.png"
+import install from "../images/install3.png"
+import request from "../images/request2.png"
+---
+
+<div class=" font-bold flex font-satoshi text-4xl justify-center items-center mt-20">
+    <h2 class=" text-center">Three easy steps for lasting results</h2>
+</div>
+<p class=" text-center mt-8 font-satoshi">Three simple steps from consultation to completion</p>
+<div class=" block lg:flex lg:mt-10 font-satoshi">
+    <div class=" ml-4 mt-8">
+        <Image src={request} alt="hgjkhgfhjkh" width={40}></Image>
+        <span class=" text-emerald-500">Request</span>
+        <p>Schedule your time and make a call to us and see whats on offer</p>
+    </div>
+    <div class=" ml-4 mt-8">
+        <Image src={deliver} alt="hgjkhgfhjkh" width={40}></Image>
+        <span class=" text-fuchsia-500">Deliver</span>
+        <p>Schedule your time and make a call to us and see whats on offer</p>
+    </div>
+    <div class=" ml-4 mt-8">
+        <Image src={install} alt="hgjkhgfhjkh" width={40}></Image>
+        <span class=" text-sky-500">Installation</span>
+        <p>Schedule your time and make a call to us and see whats on offer</p>
+    </div>
+</div>
+
+<div class=" bg-black mt-24 font-satoshi text-black rounded-3xl">
+    <Image src={logo} alt="vbcvgfhjkl" height={80} class=" mx-auto rounded-full mt-8"></Image>
+
+    <div class=" text-center mt-10 text-white">
+        <h1 class=" text-3xl">Econo Covers more than you think</h1>
+        <p class=" mt-4">From elegant cabrons, stone work, roofing and roofing tailors, sand, ballast, gypsum boards and  cement etc</p>
+    </div>
+
+    <h2 class=" text-center mt-10 text-white">Here is what we offer</h2>
+    <div class=" block lg:flex justify-center items-center ">
+        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 ml-6">
+            <div class="p-6">
+              <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Sand and Cement
+              </h5>
+              <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Our sand and cement has been checked by our experts to ensure you only get the best product.
+              </p>
+            </div>
+          </div>
+        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 ml-6">
+            <div class="p-6">
+              <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Stones and Carbrons
+              </h5>
+              <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Our carbrons have been stress-tested to ensure only quality material reach your hands
+              </p>
+            </div>
+          </div>
+        
+    </div>
